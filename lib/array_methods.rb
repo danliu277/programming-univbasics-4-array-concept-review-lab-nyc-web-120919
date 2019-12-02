@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  index = -1;
+  index = nil;
   counter = 0;
   while array[counter] do
     if(array[counter] == value_to_find)
