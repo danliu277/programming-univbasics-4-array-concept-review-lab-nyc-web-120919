@@ -3,8 +3,8 @@ def find_element_index(array, value_to_find)
   index = -1;
   counter = 0;
   while array[counter] do
-    if(array[counter] == value_to_find)
-      index = counter
+    # if(array[counter] == value_to_find)
+    #   index = counter
     counter += 1
   end
   return counter
